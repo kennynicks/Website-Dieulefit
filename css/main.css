@@ -1,0 +1,244 @@
+﻿body {
+    /*background-color: #d7d4ed;*/
+    background-color: #f2f2f2;
+    padding-top: 70px;
+    /*cursor: url(../images/test.png),auto;*/
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.flag {
+    width: 35px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.navbar-ex1-collapse {
+    margin-right: 10px;
+}
+
+.nav>li>a {
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.highlight {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.thumbnail {
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: rgb(67, 74, 84);
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-shadow: 1px 2px 40px 2px #6b6b6b;
+    box-shadow: 1px 2px 40px 2px rgba(107, 107, 107, 0.31);
+}
+
+.thumbnail.right-caption>img {
+    float: left;
+    margin-right: 9px;
+}
+
+.thumbnail.right-caption {
+    float: left;
+}
+
+.thumbnail.right-caption>.caption {
+    padding: 4px;
+}
+
+.thumbnail.left-caption>img {
+    float: right;
+}
+
+.thumbnail.left-caption {
+    float: right;
+}
+
+.thumbnail.left-caption>.caption {
+    padding: 4px;
+}
+
+.thumbnailPicture {
+    max-width: 500px !important;
+    max-height: 300px;
+}
+
+.freizeitThumbnail {
+    max-width: 390px !important;
+    height: 320px !important;
+}
+
+.caption-text-right {
+    margin-left: 60%;
+    margin-bottom: 0px !important;
+}
+
+.caption-text-left {
+    margin-right: 60%;
+    margin-bottom: 0px !important;
+}
+
+.umgebungThumbnail {
+    float: none;
+    margin: 0 auto;
+    max-width: 275px !important;
+}
+
+.kontaktThumbnail {
+    width: 600px !important;
+    max-height: 600px !important;
+}
+
+.innerBox {
+    position: absolute;
+    bottom: 0;
+    right: 5px;
+}
+
+.selected img {
+    opacity: 0.5;
+}
+
+.carousel-inner>.item>img {
+    width: auto;
+    max-height: 500px;
+    margin: 0 auto;
+}
+
+.previewThumbnails {
+    max-width: 80px;
+    max-height: 60px;
+    cursor: pointer;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.carousel-control {
+    cursor: pointer;
+}
+
+.navbar-brand {
+    font-size: large;
+}
+
+@media (max-width: 1190px) {
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-nav {
+        float: none !important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-text {
+        float: none;
+        margin: 15px 0;
+    }
+    /* since 3.1.0 */
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .collapsing {
+        overflow: hidden !important;
+    }
+}
+
+@media (max-width: 1920px) {
+    .blueimp-gallery>.indicator>li {
+        width: 30px !important;
+        height: 30px !important;
+    }
+}
+
+@media (max-width: 641px) {
+    .blueimp-gallery>.indicator>li {
+        width: 15px !important;
+        height: 15px !important;
+    }
+}
+
+.row-centered {
+    text-align: center;
+}
+
+.col-centered {
+    display: inline-block;
+    float: none;
+    text-align: left;
+    margin-right: -4px;
+}
+@media (min-width: 768px){
+    .row.centered {
+        display: flex !important;
+        align-items: center !important;
+    }
+    .row.bottom {
+        display: flex !important;
+        align-items: baseline !important;
+    }
+    ul{
+        padding-left:20px!important;
+    }
+}
+@media (max-width: 767px){
+    .row.bottom .col{
+        margin-bottom: 20px;
+    }
+    .invisible-mobile{
+        display: none;
+    }
+    .hidden-mobile {
+        visibility: hidden;
+    }
+    .umgebungThumbnail{
+        max-width: 500px!important;
+    }
+    ul {
+        padding-left:10px!important;
+    }
+    .mb-2{
+        margin-bottom: 20px!important;
+    }
+}
+
+.mw-100{
+    max-width: 100%!important;
+}
+
+.pl-0 {
+    padding-left: 0!important;
+}

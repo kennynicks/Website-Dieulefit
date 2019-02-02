@@ -1,0 +1,75 @@
+<div class="row">
+    <div class="thumbnail col-md-3 col-sm-5 col-xs-12">
+        <img id="freizeit" class="img-rounded" src="../images/freizeit/aktiv.jpg" alt="">
+    </div>
+    <div class="thumbnail col-md-3 col-sm-5 col-sm-offset-2 col-xs-12 col-md-push-4">
+        <img id="freizeit2" class="img-rounded" src="../images/freizeit/Schilder.JPG" alt="">
+    </div>
+    <div class="well col-md-4 col-sm-12 col-xs-12 col-md-pull-4">
+        <h4 class="list-group-item-heading">{{translate("sportUeberschrift")}}</h4>
+
+        <ul style="list-style: none">
+            <div ng-repeat="item in sportTabelle">
+                <li>
+                    <p class="glyphicon glyphicon-menu-right"></p> {{translate(item)}}
+                </li>
+            </div>
+        </ul>
+    </div>
+
+</div>
+
+<hr class="hidden-mobile" />
+
+<div class="row">
+    <div class="thumbnail col-md-3 col-sm-5 col-xs-12">
+        <img class="img-rounded i" src="../images/freizeit/natur.jpg" alt="">
+    </div>
+    <div class="thumbnail col-md-3 col-sm-5 col-sm-offset-2 col-xs-12 col-md-push-4">
+        <img class="img-rounded" src="../images/freizeit/Lance.JPG" alt="">
+    </div>
+    <div class="well col-md-4 col-sm-12 col-xs-12 col-md-pull-4">
+        <h4 class="list-group-item-heading">{{translate("naturUeberschrift")}}</h4>
+
+        <ul style="list-style: none">
+            <div ng-repeat="item in naturTabelle">
+                <li>
+                    <p class="glyphicon glyphicon-menu-right"></p> {{translate(item)}}
+                </li>
+            </div>
+        </ul>
+    </div>
+</div>
+
+<hr class="hidden-mobile" />
+
+<div class="row">
+    <div class="thumbnail col-md-3 col-sm-5 col-xs-12">
+        <img class="img-rounded i" src="../images/freizeit/kultur.JPG" alt="">
+    </div>
+    <div class="thumbnail col-md-3 col-sm-5 col-sm-offset-2 col-xs-12 col-md-push-4">
+        <img class="img-rounded i" src="../images/freizeit/Poet-Laval.jpg" alt="">
+    </div>
+    <div class="well col-md-4 col-sm-12 col-xs-12 col-md-pull-4">
+        <h4 class="list-group-item-heading">{{translate("kulturUeberschrift")}}</h4>
+
+        <ul style="list-style: none">
+            <div ng-repeat="item in kulturTabelle">
+                <li>
+                    <p class="glyphicon glyphicon-menu-right"></p> {{translate(item)}}
+                </li>
+            </div>
+            <ul style="list-style: none;">
+                <li>
+                    <p class="glyphicon glyphicon-chevron-right"></p> Le Poët-Laval,
+                </li>
+                <li>
+                    <p class="glyphicon glyphicon-chevron-right"></p> La Garde-Adhémar,
+                </li>
+                <li>
+                    <p class="glyphicon glyphicon-chevron-right"></p> Mirmande ...
+                </li>
+            </ul>
+        </ul>
+    </div>
+</div>
