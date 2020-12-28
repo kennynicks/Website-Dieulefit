@@ -368,14 +368,6 @@
       en: "Vacancies",
       fr: "Planning",
     },
-    info1: {
-      de:
-        "Wir sprechen deutsch, englisch, französisch und freuen uns auf ihren Besuch.",
-      en:
-        "We speak German, English and French and we are looking forward to your visit.",
-      fr:
-        "Nous parlons français, anglais, allemand et nous nous réjouissons de votre visite.",
-    },
     info2: {
       de: "© Fotos und Bearbeitung: Ulla Schübeler-Jannes und Richard Jannes",
       en: "© Pictures and adaption: Ulla Schübeler-Jannes and Richard Jannes",
